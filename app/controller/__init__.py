@@ -1,0 +1,22 @@
+from .alertscontacts_controller import AlertsContactsController
+from .batterystatus_controller import BatteryStatusController
+from .locationalerts_controller import LocationAlertsController
+from .smartwatches_controller import SmartWatchesController
+from .notificationsettings_controller import NotificationSettingsController
+from .heartrates_controller import HeartRatesController
+from .owners_controller import OwnersController
+from .heartratealerts_controller import HeartRateAlertsController
+from .location_controller import LocationController
+from .batteryalerts_controller import BatteryAlertsController
+
+alertscontacts_controller = AlertsContactsController()
+batterystatus_controller = BatteryStatusController()
+locationalerts_controller = LocationAlertsController()
+smartwatches_controller= SmartWatchesController()
+notificationsettings_controller = NotificationSettingsController()
+heartrates_controller = HeartRatesController()
+owners_controller = OwnersController()
+heartratealerts_controller = HeartRateAlertsController()
+location_controller = LocationController()
+batteryalerts_controller = BatteryAlertsController()
+
